@@ -1,0 +1,25 @@
+{
+  "name": "TestingNode",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Testing in Nodejs with the built-in test runner.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "node --loader tsx --test test/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Daniele Baelde",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.3.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.3"
+  }
+}
